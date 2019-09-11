@@ -1,0 +1,12 @@
+Motivacao:
+    Quando necessitamos alterar implementacoes concretas sem alterar o codigo
+    que estas usam, mesmo em tempo de execucao;
+    Facilita a reducao ou adicao de um tipo de interface, ou de um conjunto de objetos;
+Objetivo:
+    Permite a criacao de familias de objetos relacionados ou dependentes por meio de uma
+    unica interface e sem que a classe concreta seja especificada;
+Consequencias:
+    O padrao isola classes concretas;
+    Facilita o cambio de familias de produtos;
+    Promove a consistencia entre produtos;
+    Dar suporter a novos tipos de produtos é dificil;

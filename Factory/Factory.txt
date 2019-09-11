@@ -1,0 +1,13 @@
+Objetivo:
+    Definir uma interface para criar objetos de forma a deixar as subclasses decidirem qual classe instanciar;
+Motivacao:
+    Quando uma classe nao pode antecipar a classe dos objetos que devem criar;
+    Quando uma classe quer que suas subclasses especifiquem os objetos criados;
+    Quando classes delegam responsabilidade para uma entre varias subclasses de apoio
+    e queremos localizar em um ponto unico a conhecimento de qual subclasse esta sendo utilizada;
+Consequencias:
+    Baixo acoplamento;
+    Maior flexibilidade;
+    Elimina a necessidade de acoplar classes especificas para aplicacao a nivel de codigo;
+    Alto numero de classes, podendo sobrecarregar o sistema;
+    
